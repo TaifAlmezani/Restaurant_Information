@@ -30,7 +30,7 @@ struct ContentView: View {
                         .resizable()
                         .frame(width: 300, height: 300)
                         .clipShape(Circle())
-                        .overlay(Circle().stroke(Color.orange, lineWidth: 4)) // Add a 5-point orange border
+                        .overlay(Circle().stroke(Color.orange, lineWidth: 4)) 
 
                     Text("McDonald’s 🍔!")
                         .font(.title)

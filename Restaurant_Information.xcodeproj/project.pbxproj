@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		B15418002AD686CE00C227BC /* Restaurant_InformationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15417FF2AD686CE00C227BC /* Restaurant_InformationApp.swift */; };
-		B15418022AD686CE00C227BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15418012AD686CE00C227BC /* ContentView.swift */; };
+		B15418022AD686CE00C227BC /* mcdonalds.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15418012AD686CE00C227BC /* mcdonalds.swift */; };
 		B15418042AD686D000C227BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15418032AD686D000C227BC /* Assets.xcassets */; };
 		B15418072AD686D000C227BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15418062AD686D000C227BC /* Preview Assets.xcassets */; };
 		B15418112AD686D000C227BC /* Restaurant_InformationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15418102AD686D000C227BC /* Restaurant_InformationTests.swift */; };
 		B154181B2AD686D000C227BC /* Restaurant_InformationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B154181A2AD686D000C227BC /* Restaurant_InformationUITests.swift */; };
 		B154181D2AD686D000C227BC /* Restaurant_InformationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B154181C2AD686D000C227BC /* Restaurant_InformationUITestsLaunchTests.swift */; };
+		B162B5932ADA899C000C634F /* MEXIKA.swift in Sources */ = {isa = PBXBuildFile; fileRef = B162B5922ADA899C000C634F /* MEXIKA.swift */; };
+		B162B5952ADA8EB4000C634F /* PF CHANGS .swift in Sources */ = {isa = PBXBuildFile; fileRef = B162B5942ADA8EB4000C634F /* PF CHANGS .swift */; };
+		B162B5972ADA91C5000C634F /* Takya.swift in Sources */ = {isa = PBXBuildFile; fileRef = B162B5962ADA91C5000C634F /* Takya.swift */; };
+		B162B5992ADACD83000C634F /* Piatto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B162B5982ADACD83000C634F /* Piatto.swift */; };
+		B162B59B2ADACEAB000C634F /* mohalla.swift in Sources */ = {isa = PBXBuildFile; fileRef = B162B59A2ADACEAB000C634F /* mohalla.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		B15417FC2AD686CE00C227BC /* Restaurant_Information.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaurant_Information.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B15417FF2AD686CE00C227BC /* Restaurant_InformationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant_InformationApp.swift; sourceTree = "<group>"; };
-		B15418012AD686CE00C227BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B15418012AD686CE00C227BC /* mcdonalds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mcdonalds.swift; sourceTree = "<group>"; };
 		B15418032AD686D000C227BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B15418062AD686D000C227BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B154180C2AD686D000C227BC /* Restaurant_InformationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Restaurant_InformationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,11 @@
 		B15418162AD686D000C227BC /* Restaurant_InformationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Restaurant_InformationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B154181A2AD686D000C227BC /* Restaurant_InformationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant_InformationUITests.swift; sourceTree = "<group>"; };
 		B154181C2AD686D000C227BC /* Restaurant_InformationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant_InformationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B162B5922ADA899C000C634F /* MEXIKA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEXIKA.swift; sourceTree = "<group>"; };
+		B162B5942ADA8EB4000C634F /* PF CHANGS .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PF CHANGS .swift"; sourceTree = "<group>"; };
+		B162B5962ADA91C5000C634F /* Takya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Takya.swift; sourceTree = "<group>"; };
+		B162B5982ADACD83000C634F /* Piatto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piatto.swift; sourceTree = "<group>"; };
+		B162B59A2ADACEAB000C634F /* mohalla.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mohalla.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +105,14 @@
 			isa = PBXGroup;
 			children = (
 				B15417FF2AD686CE00C227BC /* Restaurant_InformationApp.swift */,
-				B15418012AD686CE00C227BC /* ContentView.swift */,
-				B15418032AD686D000C227BC /* Assets.xcassets */,
+				B15418012AD686CE00C227BC /* mcdonalds.swift */,
+				B162B5922ADA899C000C634F /* MEXIKA.swift */,
+				B162B5942ADA8EB4000C634F /* PF CHANGS .swift */,
+				B162B5962ADA91C5000C634F /* Takya.swift */,
+				B162B5982ADACD83000C634F /* Piatto.swift */,
+				B162B59A2ADACEAB000C634F /* mohalla.swift */,
 				B15418052AD686D000C227BC /* Preview Content */,
+				B15418032AD686D000C227BC /* Assets.xcassets */,
 			);
 			path = Restaurant_Information;
 			sourceTree = "<group>";
@@ -257,8 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B15418022AD686CE00C227BC /* ContentView.swift in Sources */,
+				B15418022AD686CE00C227BC /* mcdonalds.swift in Sources */,
+				B162B5972ADA91C5000C634F /* Takya.swift in Sources */,
+				B162B5952ADA8EB4000C634F /* PF CHANGS .swift in Sources */,
+				B162B59B2ADACEAB000C634F /* mohalla.swift in Sources */,
 				B15418002AD686CE00C227BC /* Restaurant_InformationApp.swift in Sources */,
+				B162B5992ADACD83000C634F /* Piatto.swift in Sources */,
+				B162B5932ADA899C000C634F /* MEXIKA.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
